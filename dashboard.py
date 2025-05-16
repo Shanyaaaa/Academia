@@ -12,10 +12,10 @@ from math import*
 import sqlite3
 
 class RMS:
-    def __init__(self, root ): # default constructor and root is a tkinter class object
+    def __init__(self, root ): 
         self.root = root
         self.root.title("Student Result Management System")
-        self.root.geometry("1350x720+0+0") # Increased height to ensure footer visibility
+        self.root.geometry("1350x720+0+0") 
         self.root.config(bg="white")
 
         #***********icons***********
